@@ -1,0 +1,31 @@
+.LoginWrapper form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 38px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    max-width: 200px;
+    min-height: 300px;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.LoginWrapper form input{
+    width: 90%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.LoginWrapper form button{
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    border: 2px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: lightgray;
+    }
+}
