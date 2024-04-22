@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { LogOutPanel } from './LoginComponent'
 import { UserContext } from './Context'
 import '../Styling/ProfilePage.css'
+import Modesaxen from './Modesaxen'
 
 const ProfilePage = () => {
     const { user } = useContext(UserContext); 
@@ -16,8 +17,8 @@ const ProfilePage = () => {
             <p><b>Mail:</b> {user.ContactEmail} </p>
         </div>
       </div>
+      <Modesaxen />
       <LogOutPanel />
-      
     </div>
   )
 }
